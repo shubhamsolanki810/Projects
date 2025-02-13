@@ -1,0 +1,161 @@
+@media (max-width: 996px) {
+
+    .navbar {
+        max-width: 93vw;
+        margin: 0px 15px !important;
+    }
+
+    .logo {
+        height: 30px;
+    }
+
+    .header-container :nth-child(1) {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .header-container :nth-child(2) {
+        font-size: 14px;
+    }
+
+    .header-container :nth-child(3) {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    #input-text {
+        width: 250px;
+        height: 40px;
+    }
+
+    .trending {
+        font-size: 25px;
+    }
+
+    #selector {
+        display: grid;
+    }
+
+    .trending-selector {
+        padding: 0.5rem 2.25rem 0.5rem 0.75rem;
+        margin-right: 20px;
+
+    }
+
+    .flex-container-one {
+        max-width: calc(100% -10%);
+        margin: auto;
+        gap: 8px;
+        overflow-x: scroll;
+    }
+
+    .con-img-1 img {
+        width: 140px;
+        filter: none;
+        transition: none;
+    }
+
+    .con-img-1 img:hover {
+        width: 140px;
+        transition: none;
+    }
+
+}
+
+@media (max-width: 1280px) {
+    .fo-links {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 800px) {
+    .fo-links {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:800px) {
+    #input-text {
+        width: 450px !important;
+    }
+
+    .get-started-btn {
+        height: 42px;
+        padding: 3px 10px 3px 10px;
+        font-size: 18px !important;
+        gap: 5px;
+    }
+
+    .get-started-btn img {
+        height: 15px;
+        width: auto;
+    }
+
+}
+
+@media (max-width:610px) {
+    #input-text {
+        width: 350px !important;
+    }
+
+    .inputs {
+        display: grid;
+    }
+
+    .btn1 {
+        background: url(resource/down-arrow.svg) no-repeat;
+        background-position: calc(100% - 10px) center;
+        appearance: none;
+        width: 0.0625rem !important;
+    }
+
+}
+
+@media (max-width: 1146px) {
+    .flex-container-two {
+        display: grid;
+        grid-template-columns: 40vw 40vw;
+    }
+
+    .resons {
+        width: auto;
+        height: 200px;
+    }
+
+    .re-heading {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .re-para {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:837px) {
+    .flex-container-two {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .resons {
+        height: 200px;
+    }
+
+    .resons svg {
+        height: 70px;
+    }
+}
+
+@media (max-width:410px) {
+    .resons svg {
+        height: 50px;
+    }
+}
+
+@media (max-width:1250px) {
+    .navbar {
+        max-width: 1250px;
+        margin: 0 80px;
+    }
+}

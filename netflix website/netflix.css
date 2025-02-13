@@ -1,0 +1,371 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.max {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.main {
+    height: 90vh;
+    background-image: url(resource/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+}
+
+.main .box {
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(8, 8, 8, 0.568), rgb(8, 8, 8));
+    position: absolute;
+    top: 0;
+}
+
+.navbar {
+    height: 80px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.logo {
+    height: 40px;
+    position: relative;
+    z-index: 10;
+}
+
+.buttons {
+    position: relative;
+    z-index: 10;
+    gap: 8px;
+}
+
+.btn {
+    padding: 3px 15px;
+    font-size: 15px;
+}
+
+.op {
+    background: url(resource/translate.svg) no-repeat;
+    background-position: 10px center;
+    background-color: rgba(26, 26, 26, 0.781);
+}
+
+.btn1 {
+    padding: 5px 35px;
+    background: url(resource/down-arrow.svg) no-repeat;
+    background-position-x: 100px;
+    background-position-y: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    appearance: none;
+    border: 1px solid rgba(128, 128, 128, 0.699);
+    border-radius: 5px;
+}
+
+.btn1 option {
+    background-color: white;
+    color: black;
+}
+
+.btn2 {
+    background-color: rgb(226, 15, 26);
+    border: none !important;
+    text-wrap: nowrap;
+    font-weight: 500;
+    padding: 4.5px 15px;
+    transition: all 0.5s;
+}
+
+.btn2:hover {
+    background-color: rgba(209, 13, 23, 0.829);
+    transition: all 0.5s;
+}
+
+.header-container {
+    height: 80vh;
+    width: 50%;
+    margin: auto;
+    color: white;
+    position: relative;
+    z-index: 1;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.header-container :nth-child(1) {
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    line-height: 65px;
+}
+
+.header-container :nth-child(2) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.header-container :nth-child(3) {
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+
+.inputs {
+    gap: 8px;
+    margin-top: 10px;
+}
+
+#input-text {
+    /* width: 550px !important;
+    height: 55px !important; */
+
+    width: 550px !important;
+    height: 55px !important;
+    background: rgba(73, 72, 72, 0.438);
+    color: white;
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    font-size: 18px;
+    /* font-weight: normal; */
+    border: 1px solid rgba(155, 155, 155, 0.733);
+    border-radius: 5px;
+    text-align: left;
+
+    background-color: #3030304f;
+    border: 1px solid rgba(255, 255, 255, 0.349);
+}
+
+#input-text::placeholder {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+    color: rgb(158, 156, 156);
+}
+
+.get-started-btn {
+    height: 60px;
+    font-weight: 400 !important;
+    font-size: 22px !important;
+    gap: 15px;
+    background-color: rgb(209, 13, 23);
+    text-wrap: nowrap;
+    margin: auto;
+    padding: 3px 25px 3px 30px;
+    border-radius: 5px;
+    border: none;
+    transition: background 0.5s;
+}
+
+.get-started-btn:hover {
+    background-color: rgba(209, 13, 23, 0.829);
+    transition: background 0.5s;
+}
+
+hr {
+    height: 10px;
+    background: radial-gradient(red, blue);
+    border: none;
+    box-shadow: 0px -15px 200px 20px rgb(0, 110, 255);
+}
+
+
+.trending {
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+    margin-bottom: 50px;
+    /* border: 2px solid red; */
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.trending-heading {
+    padding: 35px 0px 0px 0px;
+}
+
+#selector {
+    display: flex;
+    gap: 15px;
+    margin-top: 23px;
+}
+
+
+.trending-selector {
+    font-size: 15px;
+    background: url(resource/down-arrow.svg) no-repeat;
+    appearance: none;
+    color: white;
+    background-color: rgba(27, 27, 27, 0.411);
+    border-radius: 5px;
+    padding: 0.5rem 2.25rem 0.5rem 0.75rem;
+}
+
+.position-arrow-1,
+.position-arrow-2 {
+    background-position: calc(100% - 10px) center;
+    background-position-y: center;
+}
+
+.trending-selector option {
+    background-color: white;
+    color: black;
+}
+
+#more-reason {
+    padding: 0px !important;
+}
+
+.flex-container-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con-img-1 img {
+    width: 180px;
+    border-radius: 8px;
+    cursor: pointer;
+    filter: grayscale(1);
+    transition: all 0.5s;
+}
+
+.con-img-1 img:hover {
+    width: 200px;
+    transition: all 0.5s;
+    filter: grayscale(0);
+}
+
+.resons {
+    height: 340px;
+    width: 240px;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    border-radius: 20px;
+    padding: 0px 18px;
+    position: relative;
+}
+
+.resons svg {
+    height: auto;
+    width: auto;
+    position: absolute;
+    bottom: 20px;
+    right: 18px;
+    z-index: 10;
+}
+
+.flex-container-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.re-heading {
+    padding: 20px 0px;
+    font-size: 23px;
+    font-weight: 600;
+    color: white;
+
+}
+
+.re-para {
+    color: rgb(150, 150, 150);
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.flex-container-three {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80vw;
+    margin: auto;
+    margin-top: 25px;
+    max-width: 1000px;
+    user-select: none;
+    margin-bottom: 4.2pc;
+}
+
+.questions {
+    color: white;
+    background-color: #2d2d2d;
+    justify-content: space-between;
+    padding: 25px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.questions:hover {
+    background-color: #464646;
+    transition: all 0.5s;
+}
+
+.questions>div {
+    font-size: 23px;
+}
+
+.fo-heading {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.fo-started {
+    font-size: 23px;
+    height: 55px !important;
+    background-color: rgb(221, 21, 21) !important;
+}
+
+.footer {
+    padding: 0 30px 0 30px;
+    color: rgb(180, 176, 176);
+    max-width: 1000px;
+    margin: auto;
+}
+
+.call {
+    margin-bottom: 50px;
+}
+
+footer a {
+    color: rgb(180, 176, 176);
+}
+
+.fo-links {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 50px;
+}
+
+.fo-links a {
+    margin: 5px 0px;
+    font-size: 14px;
+}
+
+.po {
+    background-color: transparent !important;
+}
+
+.last {
+    margin-top: 40px;
+    margin-bottom: 5pc;
+    font-size: 15px;
+}

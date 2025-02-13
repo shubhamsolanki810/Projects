@@ -1,0 +1,37 @@
+.flex {
+    display: flex;
+}
+
+.ai {
+    display: flex;
+    align-items: center;
+}
+
+.jc {
+    display: flex;
+    justify-content: center;
+}
+
+.jcsb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jcsr {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gap5 {
+    display: flex;
+    gap: 5px;
+}
+
+.fo {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.custom-svg {
+    fill: white;
+}
